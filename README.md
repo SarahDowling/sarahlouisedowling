@@ -2,7 +2,7 @@
 
 #### [sarahlouisedowling.ca] (https://sarahlouisedowling.ca)
 
-![](photo.jpg)
+![iSmiley Icon](img/smile.svg)
 
 Ever since I could talk, I've asked "why". I just had to understand the reasoning and context around everything, and be able to relate it to everything else I understood.
 Learning more, making connections, and sharing these new understandings with others drives me as a graphic, UX/UI, and web designer.
