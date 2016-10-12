@@ -436,15 +436,6 @@ ol {
   list-style-type: none;
 }
 
-ol > li::before {
-  float: left;
-  margin-left: -1.6em;
-  width: 1.3em;
-  counter-increment: ol-simple-numbers;
-  content: counter(ol-simple-numbers);
-  text-align: right;
-}
-
 .list-group > li::before,
 .list-group-inline > li::before,
 .list-group--inline > li::before {

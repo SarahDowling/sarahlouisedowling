@@ -13,6 +13,20 @@ hr {
   color: #59bf8e;
 }
 
+a, .btn, .btn-ghost{
+  text-decoration: none;
+  color: #333333;
+  border: 0;
+  background-color: white;
+}
+
+a:hover, .btn:hover, .btn-ghost:hover{
+  text-decoration: none;
+  color: #59bf8e;
+  border: 0;
+  background-color: white;
+}
+
 @media only screen and (min-width: 25em) {
   h1 {
     font-size: 2.6rem;
