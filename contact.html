@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Sarah's Work</title>
+  <title>Contact Sarah</title>
   <meta name="viewport" content="width=device-width, initial-scale= 1">
   <meta name="handheldfriendly" content="true">
   <meta name="mobileoptimized" content="240">
@@ -10,75 +10,88 @@
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
-  <link href="fonts/stylesheet.css" rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700" rel="stylesheet">
   <link href="img/favicon.ico" rel="shortcut icon">
 </head>
 
 <body>
-  <div class="grid wrapper island-1-2">
+  <main>
+    <article>
+      <div class="grid wrapper island-1-2">
 
-    <div class="unit xs-1 gutter">
-      <h1 class="push"> Sarah Louise Dowling </h1>
+        <div class="unit xs-1 gutter">
+          <h1 class="push"> Sarah Louise Dowling </h1>
+        </div>
+        <div class="unit xs-1 gutter">
+          <ol class="grid push-0">
+            <li class="btn btn-ghost unit xs-1-3 m-1-4">
+              <a href="index.html">
+                <p class="push-0 gutter-1-4">Work</p>
+              </a>
+            </li>
+            <li class="btn btn-ghost unit xs-1-3 m-1-4">
+              <a href="about.html">
+                <p class="push-0 gutter-1-4">About</p>
+              </a>
+            </li>
+            <li class="btn btn-ghost unit xs-1-3 m-1-2 text-right">
+              <a href="contact.html">
+                <p class="push-0 gutter-1-4">Contact</p>
+              </a>
+            </li>
+          </ol>
+        </div>
+        <div class="unit xs-1 push-2">
+          <hr>
+        </div>
+
+        <div class="unit xs-1">
+          <form action="https://formspree.io/dowl0030@algonquinlive.com" method="post">
+            <fieldset>
+
+            <legend class="kilo bold gutter push-1-2">Let's chat:</legend>
+              <div class="grid">
+                <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 gutter pad-b">
+                  <label for="name">First Name</label>
+                  <input id="name" required name="name">
+                </div>
+                <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 gutter pad-b">
+                  <label for="lastname">Last Name</label>
+                  <input id="lastname" required name="lastname">
+                </div>
+
+                <div class="unit xs-1 s-1 m-1 l-1 xl-1 gutter pad-b">
+                  <label for="email">Email</label>
+                  <input id="email" type="email" name="email" required placeholder="you@yours.com">
+                </div>
+
+                <div class="unit xs-1 gutter pad-b">
+                  <label for="text1">Message</label>
+                  <textarea name="text1" id="text1" cols="40" rows="5">
+                  </textarea>
+                </div>
+
+                <div class="unit xs-1 s-1 m-1 l-1 xl-1 gutter">
+                  <button class="link-box btn btn--ghost submit" type="submit">Submit</button>
+                </div>
+
+              <input type="hidden" name="_next" value="thanks.html">
+            </div>
+         </fieldset>
+        </form>
+      </div>
     </div>
-    <div class="unit xs-1 gutter">
-      <ol class="grid push-0">
-        <li class="btn btn-ghost unit xs-1-3 m-1-4">
-          <a href="###"><p class="push-0 gutter-1-4">Work</p></a>
-        </li>
-        <li class="btn btn-ghost unit xs-1-3 m-1-4">
-          <a href="###"><p class="push-0 gutter-1-4">About</p></a>
-        </li>
-        <li class="btn btn-ghost unit xs-1-3 m-1-2 text-right">
-          <a href="###"><p class="push-0 gutter-1-4">Contact</p></a>
-        </li>
-      </ol>
-    </div>
-    <div class="unit xs-1 push-2">
-      <hr>
-    </div>
-
-    <div class="unit xs-1">
-      <form action="https://formspree.io/dowl0030@algonquinlive.com" method="post">
-        <fieldset class="grid">
-          <div class="unit xs-1">
-            <legend class="mega bold gutter">Let's chat:</legend>
-          </div>
-
-          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 gutter">
-            <label for="name">First Name</label>
-            <input id="name" required name="name">
-          </div>
-          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 gutter pad-b">
-            <label for="lastname">Last Name</label>
-            <input id="lastname" required name="lastname">
-          </div>
-
-          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 gutter">
-            <label for="email">Email (Used to Log In)</label>
-            <input id="email" type="email" name="email" required placeholder="you@yours.com">
-          </div>
-          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 gutter pad-b">
-            <label for="password">Create Account Password</label>
-            <input id="password" type="password" name="password" required placeholder="Password">
-          </div>
-
-          <div class="unit xs-1 gutter pad-b">
-            <label for="Text1">Message</label>
-            <textarea name="Text1" cols="40" rows="5"></textarea>
-          </div>
-
-          <div class="unit xs-1 s-1 m-1 l-1 xl-1 island-1-2">
-            <button class="link-box btn btn--ghost red-border red-words" type="submit">Submit</button>
-          </div>
-
-          <input type="hidden" name="_next" value="thanks.html">
-        </fieldset>
-      </form>
-    </div>
-  </div>
-</body>
+   </main>
+</article>
+<div class="push-foot">
+</div>
 
 <footer>
+  <div class="footer smile-right gutter">
+    <a href="contact.html"><img src="img/smile.svg" alt="smile" style="width:20px;"></a>
+  </div>
 </footer>
+
+</body>
 
 </html>
