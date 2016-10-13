@@ -40,6 +40,10 @@ a:hover, .btn:hover, .btn-ghost:hover{
     height: 3em;
 }
 
+fieldset {
+  border: none;
+}
+
 @media only screen and (min-width: 25em) {
   h1 {
     font-size: 2.6rem;
