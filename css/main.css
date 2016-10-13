@@ -2,8 +2,13 @@ html {
   font-family: "Open Sans", sans-serif;
 }
 
+p{
+  font-weight: 300;
+  color: #333333;
+}
+
 h1 {
-  text-transform: capitalize;
+  text-transform: uppercase;
   font-weight: 300;
   color: #59bf8e;
   font-size: 1.6rem;
