@@ -19,7 +19,7 @@ h1 {
   font-weight: 400;
 }
 
-h2 {
+h2, .h3 {
   font-weight: 300;
 }
 
@@ -62,7 +62,7 @@ fieldset {
 
 textarea {
   border-width: 1px;
-  border-color: rgb(200,200,200);
+  border-color: rgb(200, 200, 200);
 }
 
 .submit, .submit:hover {
@@ -70,22 +70,19 @@ textarea {
   border-bottom: 2px solid #59bf8e;
 }
 
-.80px-w {
-  width: 80px;
+.container {
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
 }
 
-@media only screen and (min-width: 25em) {
-
+.container a {
+  /* flex: flex-grow flex-shrink flex-basis; */
+  flex: 0 1 25%;
+  max-width: 50px;
 }
 
-@media only screen and (min-width: 38em) {
-
+.container a img {
+  max-width: 100%;
 }
 
-@media only screen and (min-width: 60em) {
-
-}
-
-@media only screen and (min-width: 80em) {
-
-}
