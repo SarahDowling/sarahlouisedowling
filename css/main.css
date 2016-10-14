@@ -2,12 +2,20 @@ html {
   font-family: "Open Sans", sans-serif;
 }
 
+.blue {
+  color: #59bf8e;
+}
+
 p {
   font-weight: 300;
-  color: #333;
 }
 
 h1 {
+  font-weight: 300;
+}
+
+.h1-color {
+  color: #59bf8e;
   font-weight: 400;
 }
 
@@ -20,7 +28,7 @@ hr {
   margin-bottom: 0;
 }
 
-a, .btn, .btn-ghost {
+a, a p, .btn, .btn-ghost {
   text-decoration: none;
   color: #333;
   border: 0;
