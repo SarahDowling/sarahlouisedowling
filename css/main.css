@@ -36,7 +36,11 @@ a, a p, .btn, .btn-ghost {
   padding: 0;
 }
 
-a:hover, .btn:hover, .btn-ghost:hover {
+a:hover,
+li a p:hover,
+.btn:hover,
+.btn-ghost:hover,
+.btn:focus {
   text-decoration: none;
   color: #59bf8e;
   border: 0;
