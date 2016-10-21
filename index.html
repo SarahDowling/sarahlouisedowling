@@ -22,62 +22,20 @@ meta: Sarah Louise Dowling is an Ottawa-centred Graphic Designer who loves UI/UX
               </figcaption>
             </figure>
 
-            {% for works in site.data %}
-            <figure class="unit xs-1 m-1-3 island">
-              <a href="{{works.link}}">
-                <img class="img-flex push-1-2" src="{{works.img}}" alt="{{works.alt}}">
-              </a>
-              <figcaption>
+            {% for works in site.data.works %}
+              <figure class="unit xs-1 m-1-3 island">
                 <a href="{{works.link}}">
-                  <h2 class="h3 milli push-1-4">{{works.title}}</h2>
-                  <hr class="push-1-2">
-                  <p class="milli">{{works.description}}</p>
+                  <img class="img-flex push-1-2" src="{{works.img}}" alt="{{works.alt}}">
                 </a>
-              </figcaption>
-            </figure>
+                <figcaption>
+                  <a href="{{works.link}}">
+                    <h2 class="h3 milli push-1-4">{{works.title}}</h2>
+                    <hr class="push-1-2">
+                    <p class="milli">{{works.description}}</p>
+                  </a>
+                </figcaption>
+              </figure>
             {% endfor %}
-
-
-            <figure class="unit xs-1 m-1-3 island">
-              <a href="project-case-study.html">
-                <img class="img-flex push-1-2" src="http://placehold.it/300x200" alt="">
-              </a>
-              <figcaption>
-                <a href="project-case-study.html">
-                  <h2 class="h3 milli push-1-4">DigiPantry App Design</h2>
-                  <hr class="push-1-2">
-                  <p class="milli">Save time with DigiPantry, the digital pantry app always at your fingertips and ready to help you eat.</p>
-                </a>
-              </figcaption>
-            </figure>
-
-            <figure class="unit xs-1 m-1-3 island">
-              <a href="project-case-study.html">
-                <img class="img-flex push-1-2" src="http://placehold.it/300x200" alt="">
-              </a>
-              <figcaption>
-                <a href="project-case-study.html">
-                  <h2 class="h3 milli push-1-4">One+One Website Design & Build</h2>
-                  <hr class="push-1-2">
-                  <p class="milli">A SAAS Website for One+One that I designed, conducted user testing in various stages of development, and then coded into a working responsive website.</p>
-                </a>
-              </figcaption>
-            </figure>
-
-            <figure class="unit xs-1 m-1-3 island">
-              <a href="project-case-study.html">
-                <img class="img-flex push-1-2" src="http://placehold.it/300x200" alt="">
-              </a>
-              <figcaption>
-                <a href="project-case-study.html">
-                  <h2 class="h3 milli push-1-4">Curiosity Quote Book</h2>
-                  <hr class="push-1-2">
-                  <p class="milli"> Curiosity, a quote book, brings the reader on a journey emphasizing intellectual/cognitional interaction and physical interaction with the words.</p>
-                </a>
-              </figcaption>
-            </figure>
-          </div>
-        </div>
 
 
 
