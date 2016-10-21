@@ -28,6 +28,10 @@ hr {
   margin-bottom: 0;
 }
 
+.current {
+  font-weight: 400;
+}
+
 a, a p, .btn, .btn-ghost {
   text-decoration: none;
   color: #333;
