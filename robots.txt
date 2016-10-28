@@ -1,0 +1,3 @@
+Sitemap: https://sarahdowling.github.io/sitemap.xml
+
+User-Agent: *
