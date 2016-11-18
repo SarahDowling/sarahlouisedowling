@@ -1,17 +1,17 @@
 - link: project-case-study.html
-  img: {{site.baseurl}}/img/digipantry-mockup.jpg
+  img: /img/digipantry-mockup.jpg
   alt: "digipantry app on an iphone"
   title: "DigiPantry App Design"
   description: "Save time with DigiPantry, the digital pantry app always at your fingertips and ready to help you eat."
 
 - link: project-case-study.html
-  img: {{site.baseurl}}/img/oneplusone.jpg
+  img: /img/oneplusone.jpg
   alt: "where alt goes"
   title: "One+One Website Design & Build"
   description: "A SAAS Website for One+One that I designed, conducted user testing in various stages of development, and then coded into a working responsive website."
 
 - link: project-case-study.html
-  img: {{site.baseurl}}/img/curiosity.jpg
+  img: /img/curiosity.jpg
   alt: "where alt goes"
   title: "Curiosity Quote Book"
   description: "Curiosity, a quote book, brings the reader on a journey emphasizing intellectual/cognitional interaction and physical interaction with the words."
