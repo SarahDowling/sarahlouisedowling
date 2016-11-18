@@ -25,7 +25,7 @@ meta: Sarah Louise Dowling is an Ottawa-centred Graphic Designer who loves UI/UX
             {% for works in site.data.works %}
               <figure class="unit xs-1 m-1-3 island">
                 <a href="{{works.link}}">
-                  <img class="img-flex push-1-2" src="{{works.img}}" alt="{{works.alt}}">
+                  <img class="img-flex push-1-2" src="{{site.baseurl}}/img/{{works.img}}" alt="{{works.alt}}">
                 </a>
                 <figcaption>
                   <a href="{{works.link}}">
