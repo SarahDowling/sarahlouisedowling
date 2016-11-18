@@ -41,6 +41,7 @@ a, a p, .btn, .btn-ghost {
 }
 
 a:hover,
+div a p:hover,
 li a p:hover,
 .btn:hover,
 .btn-ghost:hover,
