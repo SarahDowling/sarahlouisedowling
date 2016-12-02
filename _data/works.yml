@@ -1,17 +1,61 @@
 - link: project-digipantry.html
-  img: img/digipantry-mockup.jpg
+  img: img/digipantry-mockup_uwprjz
   alt: "digipantry app on an iphone"
   title: "DigiPantry App Design"
   description: "Save time with DigiPantry, the digital pantry app always at your fingertips and ready to help you eat."
 
+# <img
+# sizes="(max-width: 2500px) 100vw, 2500px"
+# srcset="
+# digipantry-mockup_uwprjz_c_scale,w_320.jpg 320w,
+# digipantry-mockup_uwprjz_c_scale,w_470.jpg 470w,
+# digipantry-mockup_uwprjz_c_scale,w_598.jpg 598w,
+# digipantry-mockup_uwprjz_c_scale,w_705.jpg 705w,
+# digipantry-mockup_uwprjz_c_scale,w_815.jpg 815w,
+# digipantry-mockup_uwprjz_c_scale,w_912.jpg 912w,
+# digipantry-mockup_uwprjz_c_scale,w_1000.jpg 1000w,
+# digipantry-mockup_uwprjz_c_scale,w_1091.jpg 1091w,
+# digipantry-mockup_uwprjz_c_scale,w_1171.jpg 1171w,
+# digipantry-mockup_uwprjz_c_scale,w_1254.jpg 1254w,
+# digipantry-mockup_uwprjz_c_scale,w_1332.jpg 1332w,
+# digipantry-mockup_uwprjz_c_scale,w_1410.jpg 1410w,
+# digipantry-mockup_uwprjz_c_scale,w_2500.jpg 2500w"
+# src="digipantry-mockup_uwprjz_c_scale,w_2500.jpg"
+# alt="">
+
 - link: project-oneandone.html
-  img: img/oneplusone.jpg
+  img: img/oneplusone_tq4ikl
   alt: "A SAAS website for wedding planning"
   title: "One+One Website Design & Build"
   description: "A SAAS Website for One+One that I designed, conducted user testing in various stages of development, and then coded into a working responsive website."
 
+# <img
+# sizes="(max-width: 2500px) 100vw, 2500px"
+# srcset="
+# oneplusone_tq4ikl_c_scale,w_320.jpg 320w,
+# oneplusone_tq4ikl_c_scale,w_723.jpg 723w,
+# oneplusone_tq4ikl_c_scale,w_1025.jpg 1025w,
+# oneplusone_tq4ikl_c_scale,w_1284.jpg 1284w,
+# oneplusone_tq4ikl_c_scale,w_1531.jpg 1531w,
+# oneplusone_tq4ikl_c_scale,w_1742.jpg 1742w,
+# oneplusone_tq4ikl_c_scale,w_1951.jpg 1951w,
+# oneplusone_tq4ikl_c_scale,w_2500.jpg 2500w"
+# src="oneplusone_tq4ikl_c_scale,w_2500.jpg"
+# alt="">
+
 - link: project-curiosity.html
-  img: img/curiosity.jpg
+  img: img/curiosity_codzni
   alt: "A handmade and bound quotebook"
   title: "Curiosity Quote Book"
   description: "Curiosity, a quote book, brings the reader on a journey emphasizing intellectual/cognitional interaction and physical interaction with the words."
+
+
+# <img
+# sizes="(max-width: 2500px) 100vw, 2500px"
+# srcset="
+# curiosity_codzni_c_scale,w_320.jpg 320w,
+# curiosity_codzni_c_scale,w_875.jpg 875w,
+# curiosity_codzni_c_scale,w_1265.jpg 1265w,
+# curiosity_codzni_c_scale,w_2500.jpg 2500w"
+# src="curiosity_codzni_c_scale,w_2500.jpg"
+# alt="">
