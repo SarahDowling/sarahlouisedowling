@@ -9,7 +9,16 @@ meta: An interactive quote book journey through learning and imagination
         </div>
 
         <figure class="unit xs-1 island push-0">
-          <img class="img-flex push-1-2" src="{{site.baseurl}}/img/curiosity.jpg" alt="mockup of curiosity's cover">
+          <img
+            class="img-flex push-1-2"
+            sizes="(max-width: 2500px) 100vw, 2500px"
+            srcset="
+            {{site.baseurl}}/img/curiosity_codzni_c_scale,w_320.jpg 320w,
+            {{site.baseurl}}/img/curiosity_codzni_c_scale,w_875.jpg 875w,
+            {{site.baseurl}}/img/curiosity_codzni_c_scale,w_1265.jpg 1265w,
+            {{site.baseurl}}/img/curiosity_codzni_c_scale,w_2500.jpg 2500w"
+            src="{{site.baseurl}}/img/curiosity_codzni_c_scale,w_2500.jpg"
+            alt="mockup of curiosity's cover">
           <figcaption>
             <h2 class="milli push-1-4 h3">Interaction meets paper & the string of consciousness</h2>
             <hr class="push-1-2">
