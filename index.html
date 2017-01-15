@@ -1,40 +1,39 @@
 ---
 layout: default
+title: Sarah's Portfolio
 meta: Sarah Louise Dowling is an Ottawa-centered Graphic Designer from the GTA who loves UI/UX and digital design
 ---
 
         <div class="unit xs-1" id="work">
           <div class="grid">
-            <div class="unit xs-1 gutter">
-              <h1 class="milli push-2"><strong>Graphic Design <span class="h1-color">•</span> Web/Digital Design <span class="h1-color">•</span> UI/UX Design</strong></h1>
-            </div>
 
             <figure class="unit xs-1 gutter">
-              <a href="{{site.baseurl}}/project-ac50.html">
-                <img
-                  class="img-flex push-1-2"
-                  sizes="(max-width: 2500px) 100vw, 2500px"
-                  srcset="
-                  {{site.baseurl}}/img/ac50banner_ucbry4_c_scale,w_320.jpg 320w,
-                  {{site.baseurl}}/img/ac50banner_ucbry4_c_scale,w_520.jpg 520w,
-                  {{site.baseurl}}/img/ac50banner_ucbry4_c_scale,w_684.jpg 684w,
-                  {{site.baseurl}}/img/ac50banner_ucbry4_c_scale,w_827.jpg 827w,
-                  {{site.baseurl}}/img/ac50banner_ucbry4_c_scale,w_953.jpg 953w,
-                  {{site.baseurl}}/img/ac50banner_ucbry4_c_scale,w_980.jpg 980w,
-                  {{site.baseurl}}/img/ac50banner_ucbry4_c_scale,w_1205.jpg 1205w,
-                  {{site.baseurl}}/img/ac50banner_ucbry4_c_scale,w_1318.jpg 1318w,
-                  {{site.baseurl}}/img/ac50banner_ucbry4_c_scale,w_1430.jpg 1430w,
-                  {{site.baseurl}}/img/ac50banner_ucbry4_c_scale,w_2500.jpg 2500w"
-                  src="{{site.baseurl}}/img/ac50banner_ucbry4_c_scale,w_2500.jpg"
-                  alt="Celebration Alley on Woodroffe with the AC50 logo">
-              </a>
-              <figcaption>
+              <div class="relative">
                 <a href="{{site.baseurl}}/project-ac50.html">
-                  <h3 class="milli push-1-4">AC50 — Algonquin College's 50<sup>th</sup> Anniversary Logo</h3>
-                  <hr class="push-1-2">
-                  <p class="milli">The College’s 50th Anniversary logo design represents the four themes of the celebration: pride, connection, give back, and diversity.</p>
+                  <img
+                    class="img-flex push-1-2"
+                    sizes="(max-width: 2500px) 100vw, 2500px"
+                    srcset="
+                    {{site.baseurl}}/img/ac50banner_ucbry4_c_scale,w_320.jpg 320w,
+                    {{site.baseurl}}/img/ac50banner_ucbry4_c_scale,w_520.jpg 520w,
+                    {{site.baseurl}}/img/ac50banner_ucbry4_c_scale,w_684.jpg 684w,
+                    {{site.baseurl}}/img/ac50banner_ucbry4_c_scale,w_827.jpg 827w,
+                    {{site.baseurl}}/img/ac50banner_ucbry4_c_scale,w_953.jpg 953w,
+                    {{site.baseurl}}/img/ac50banner_ucbry4_c_scale,w_980.jpg 980w,
+                    {{site.baseurl}}/img/ac50banner_ucbry4_c_scale,w_1205.jpg 1205w,
+                    {{site.baseurl}}/img/ac50banner_ucbry4_c_scale,w_1318.jpg 1318w,
+                    {{site.baseurl}}/img/ac50banner_ucbry4_c_scale,w_1430.jpg 1430w,
+                    {{site.baseurl}}/img/ac50banner_ucbry4_c_scale,w_2500.jpg 2500w"
+                    src="{{site.baseurl}}/img/ac50banner_ucbry4_c_scale,w_2500.jpg"
+                    alt="Celebration Alley on Woodroffe with the AC50 logo">
                 </a>
-              </figcaption>
+                <figcaption class="hero-words pad-t-2 gutter push-r">
+                  <a href="{{site.baseurl}}/project-ac50.html" class="pad-t-2">
+                    <h1 class="tera push-1-4 white-text">Algonquin College's 50<sup>th</sup> Anniversary Logo Design</h1>
+                    <p class="milli white-text unit-xs-hidden unit-s-hidden unit-m-1">The logo's design represents the four celebration themes: pride, connection, give back, and diversity. </p>
+                  </a>
+                </figcaption>
+              </div>
             </figure>
 
             {% for works in site.data.works %}
@@ -44,7 +43,7 @@ meta: Sarah Louise Dowling is an Ottawa-centered Graphic Designer from the GTA w
                 </a>
                 <figcaption>
                   <a href="{{works.link}}">
-                    <h2 class="h3 milli push-1-4">{{works.title}}</h2>
+                    <h2 class="h3 mega push-1-4">{{works.title}}</h2>
                     <hr class="push-1-2">
                     <p class="milli">{{works.description}}</p>
                   </a>
