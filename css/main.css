@@ -131,6 +131,10 @@ body {
  color: white;
 }
 
+.grid-top .unit {
+  vertical-align: top;
+}
+
 
 @media only screen and (min-width: 38em) {
 
