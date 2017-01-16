@@ -1,3 +1,28 @@
+- link: project-ac50.html
+  img: img/ac50-logo.jpg
+  alt: "AC50 logo design"
+  title: "AC50 Logo Design"
+  description: "In celebration of Algonquin College's 50 years, the logo's design represents the four celebration themes: pride, connection, give back, and diversity."
+
+# <img
+# sizes="(max-width: 2500px) 100vw, 2500px"
+# srcset="
+# digipantry-mockup_uwprjz_c_scale,w_320.jpg 320w,
+# digipantry-mockup_uwprjz_c_scale,w_470.jpg 470w,
+# digipantry-mockup_uwprjz_c_scale,w_598.jpg 598w,
+# digipantry-mockup_uwprjz_c_scale,w_705.jpg 705w,
+# digipantry-mockup_uwprjz_c_scale,w_815.jpg 815w,
+# digipantry-mockup_uwprjz_c_scale,w_912.jpg 912w,
+# digipantry-mockup_uwprjz_c_scale,w_1000.jpg 1000w,
+# digipantry-mockup_uwprjz_c_scale,w_1091.jpg 1091w,
+# digipantry-mockup_uwprjz_c_scale,w_1171.jpg 1171w,
+# digipantry-mockup_uwprjz_c_scale,w_1254.jpg 1254w,
+# digipantry-mockup_uwprjz_c_scale,w_1332.jpg 1332w,
+# digipantry-mockup_uwprjz_c_scale,w_1410.jpg 1410w,
+# digipantry-mockup_uwprjz_c_scale,w_2500.jpg 2500w"
+# src="digipantry-mockup_uwprjz_c_scale,w_2500.jpg"
+# alt="">
+
 - link: project-digipantry.html
   img: img/digipantry-mockup_uwprjz_c_scale,w_2500.jpg
   alt: "digipantry app on an iphone"
