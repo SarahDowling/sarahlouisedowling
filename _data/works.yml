@@ -26,7 +26,7 @@
 - link: project-digipantry.html
   img: img/digipantry-mockup_uwprjz_c_scale,w_2500.jpg
   alt: "digipantry app on an iphone"
-  title: "DigiPantry App Design & Video"
+  title: "DigiPantry App Concept, Design, Video"
   description: "Save time with DigiPantry, the digital pantry app always at your fingertips and ready to help you eat."
 
 # <img
@@ -48,11 +48,18 @@
 # src="digipantry-mockup_uwprjz_c_scale,w_2500.jpg"
 # alt="">
 
-- link: project-oneandone.html
-  img: img/oneplusone_tq4ikl_c_scale,w_2500.jpg
-  alt: "A SAAS website for wedding planning"
-  title: "One+One Website Design & Build"
-  description: "A SAAS Website for One+One that I designed, conducted user testing in various stages of development, and then coded into a working responsive website."
+
+- link: project-plantlife.html
+  img: img/plantlife-handmockup_xpwceb_c_scale,w_800.jpg
+  alt: "Plantlife on an android phone"
+  title: "Plantlife App Interaction Design"
+  description: "TThis smart planter and app duo both keep you informed on the health of your plants, as well as waters your plants immediately as needed."
+
+# - link: project-oneandone.html
+#   img: img/oneplusone_tq4ikl_c_scale,w_2500.jpg
+#   alt: "A SAAS website for wedding planning"
+#   title: "One+One Website Design & Build"
+#   description: "A SAAS Website for One+One that I designed, conducted user testing in various stages of development, and then coded into a working responsive website."
 
 # <img
 # sizes="(max-width: 2500px) 100vw, 2500px"
@@ -67,6 +74,7 @@
 # oneplusone_tq4ikl_c_scale,w_2500.jpg 2500w"
 # src="oneplusone_tq4ikl_c_scale,w_2500.jpg"
 # alt="">
+
 
 - link: project-curiosity.html
   img: img/curiosity_codzni_c_scale,w_2500.jpg
