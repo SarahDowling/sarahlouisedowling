@@ -7,10 +7,10 @@ meta: Sarah Louise Dowling is an Ottawa-centered Graphic Designer from the GTA w
         <div class="unit xs-1" id="work">
           <div class="grid">
 
-            <figure class="unit xs-1 gutter">
-              <div class="relative">
+            <figure class="unit xs-1 gutter push">
+              <div class="relative push">
                   <img
-                    class="img-flex push-1-2"
+                    class="img-flex"
                     sizes="(max-width: 2500px) 100vw, 2500px"
                     srcset="
                     {{site.baseurl}}/img/ac50banner_ucbry4_c_scale,w_320.jpg 320w,
@@ -25,23 +25,28 @@ meta: Sarah Louise Dowling is an Ottawa-centered Graphic Designer from the GTA w
                     {{site.baseurl}}/img/ac50banner_ucbry4_c_scale,w_2500.jpg 2500w"
                     src="{{site.baseurl}}/img/ac50banner_ucbry4_c_scale,w_2500.jpg"
                     alt="Celebration Alley on Woodroffe with the AC50 logo">
-                <figcaption class="hero-words pad-t-2 gutter push-r">
+                <figcaption class="hero-words pad-t-2 gutter-2">
                     <h1 class="tera push-1-4 white-text">Sarah Louise Dowling • Graphic Designer</h1>
-                    <p class="milli white-text unit-xs-hidden unit-s-hidden unit-m-1">Interaction & Motion Interdisciplinary Designer</p>
+                    <p class="milli push-2 white-text unit-xs-hidden unit-s-hidden unit-m-1">Interaction & Motion Interdisciplinary Designer</p>
                 </figcaption>
               </div>
             </figure>
 
+            <div id="portfolio" class="unit xs-1 gutter">
+              <h2 class="giga blue bold push-1-2">Portfolio</h2>
+              <hr class="push-1-2">
+            </div>
+
             {% for works in site.data.works %}
-              <figure class="unit xs-1 m-1-2 island">
+              <figure class="unit xs-1 m-1-2 island push-0">
                 <a href="{{works.link}}">
                   <img class="img-flex push-1-2" src="{{site.baseurl}}/{{works.img}}" alt="{{works.alt}}">
                 </a>
                 <figcaption>
                   <a href="{{works.link}}">
-                    <h2 class="h3 mega push-1-4">{{works.title}}</h2>
+                    <h2 class="h3 kilo push-1-4">{{works.title}}</h2>
                     <hr class="push-1-2">
-                    <p class="milli">{{works.description}}</p>
+                    <p class="milli push-0">{{works.description}}</p>
                   </a>
                 </figcaption>
               </figure>
